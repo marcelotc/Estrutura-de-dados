@@ -15,7 +15,7 @@ public class Fila {
 			e = f.retirar();
 			System.out.println("retirado: " + e);
 		}
-		
+		//teste
 	}
 		private int [] valores;
 		private int inicio;
