@@ -7,7 +7,7 @@ public class Fila {
 		
 		f.inserir(11);
 		f.inserir(21);
-		f.inserir(34);
+		f.inserir(34);ds
 		f.inserir(42);
 		
 		System.out.println("");
@@ -34,7 +34,7 @@ public class Fila {
 				throw new RuntimeException("Fila Cheia");
 			}
 			valores[fim] = elemento;
-			//o resto da divisão sempre vai dar valores de 0 a tamanho - 1
+			//o resto da divisï¿½o sempre vai dar valores de 0 a tamanho - 1
 			fim = (fim + 1) % 10;
 			total++;
 		}
